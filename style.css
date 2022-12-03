@@ -43,6 +43,10 @@ body {
     margin-top: 10px;
 }
 
+#demo {
+    font-size: 1.2rem;
+}
+
 .footerr {
     text-align: center;
     width: 100%;
