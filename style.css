@@ -1,0 +1,34 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    width: 100%;
+    height: 260px;
+    background-color: #04aa6b;
+    text-align: center;
+    position: sticky;
+    position: -webkit-sticky;
+    margin-top: 0;
+}
+
+.navbar a {
+    color: #fff;
+    font-size: 1.4rem;
+    text-decoration: none;
+    text-align: center;
+    padding: 17px 17px;
+    position: sticky;
+    position: -webkit-sticky;
+    margin-top: 0;
+}
+
+.lorenn {
+    width: 100%;
+    height: 6000px;
+    background-color: #548751;
+    position: sticky;
+    position: -webkit-sticky;
+    margin-top: 0;
+}
