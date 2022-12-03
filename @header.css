@@ -1,1 +1,14 @@
-@media screen and (min-width:500px) and (max-width:1000px) {}
+@media screen and (min-width:360px) and (max-width:500px) {
+    .navbar a {
+        color: #154;
+        font-size: 1.8rem;
+        text-decoration: none;
+        text-align: center;
+        padding: 10px 10px;
+    }
+    .main1 {
+        display: block;
+        width: 80%;
+        margin-left: 0;
+    }
+}
