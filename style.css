@@ -7,12 +7,14 @@ body {
     width: 100%;
     height: 200px;
     text-align: center;
+    color: #299684;
 }
 
 .navbar {
     width: 100%;
-    height: 160px;
-    background-color: #fff;
+    height: 120px;
+    background-color: #f6f6f6;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
     text-align: center;
     position: sticky;
     position: -webkit-sticky;
@@ -30,17 +32,20 @@ body {
 
 .main1 {
     width: 80%;
-    margin-left: 10%;
     margin-top: 30px;
-    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .main1 img {
-    display: block;
     width: 400px;
     height: 360px;
-    margin-left: 10px;
-    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px;
+    border-radius: 1rem;
+     
 }
 
 #demo {
