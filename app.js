@@ -6,7 +6,7 @@ const masa = document.getElementById('header','blanco');
 document.addEventListener('scroll', () => {
   var scroll_position = window.scrollY;
   if(scroll_position > 160) {
-    header.style.height = '80px' ;
+    header.style.height = '180px' ;
     header.style.backgroundColor = '#299684' ;
     header.style.textAlign = 'left' ;
      

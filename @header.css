@@ -21,4 +21,8 @@
           margin-left: auto;
         margin-right: auto;
     }
+    .footerr{
+        clear: both;
+        width: 100%;
+    }
 }
