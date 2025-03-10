@@ -6,15 +6,12 @@ html{
     scroll-behavior: smooth;
 }
 .logo {
-    overflow: hidden;
-    position: relative;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    height: 100px;
-    text-align: center;
-    color: #fff;
-    background-color: #299684;
+background: linear-gradient(90deg, green 1.47%, blue 88.47%);
+padding: 10px;
+}
+.logo h1{
+text-align: center;
+color: #fff;
 }
 .navbar {
     width: 100%;
@@ -33,9 +30,12 @@ html{
     font-size: 1.8rem;
     text-decoration: none;
     text-align: center;
-    padding: 17px 17px;
+    padding: 10px;
+    
 }
-
+.navbar a:hover{
+color: green;
+}
 .main1 {
     width: 80%;
     margin-top: 30px;
@@ -69,7 +69,7 @@ html{
 .footerr {
     text-align: center;
     width: 100%;
-    height: 240px;
+    height:auto;
     background-color: #299684;
 }
 

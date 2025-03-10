@@ -1,4 +1,4 @@
-@media screen and (min-width:360px) and (max-width:500px) {
+@media screen and (min-width:260px) and (max-width:760px) {
     .navbar a {
         color: #154;
         font-size: 1.8rem;
@@ -24,5 +24,6 @@
     .footerr{
         clear: both;
         width: 100%;
+         
     }
 }
