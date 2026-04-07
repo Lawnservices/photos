@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
 
 
-  const masa = document.getElementById('header', 'blanco');
+  const masa = document.getElementById('header', 'blanco', 'coll');
 
 
   document.addEventListener('scroll', () => {
@@ -12,14 +12,14 @@ document.addEventListener('DOMContentLoaded', function () {
       masa.style.textAlign = 'left';
       demo.style.display = 'block';
       demo.style.fontSize = '16px';
-
+      coll.style.display = 'block';
 
     } else {
       masa.style.height = '80px';
       masa.style.backgroundColor = '#f6f6f6';
       masa.style.textAlign = 'center';
       demo.style.display = 'none';
-
+      coll.style.display = 'none';
 
     }
   });

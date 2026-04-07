@@ -13,7 +13,11 @@
 
     }
 
-
+#coll{
+text-align: center;
+font-size: 22px;
+padding:2px;
+}
     .main1 {
         margin: 10px;
     }

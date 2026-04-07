@@ -20,13 +20,27 @@ html {
     color: #fff;
 
 }
-
+.logo h2{
+color: white;
+margin-left: 16px;
+}
+#coll{
+text-align: center;
+font-size: 22px;
+color: #299684;
+display: none;
+position: -webkit-sticky;
+position: sticky;
+top: 0;
+z-index: 102; 
+padding: 10px; 
+}
 .navbar {
     width: 100%;
     text-align: center;
     position: -webkit-sticky;
     position: sticky;
-    top: 0;
+    top:0px;
     z-index: 100;
     display: block;
     padding: 10px; 
